@@ -1,4 +1,5 @@
 import assert from 'node:assert';
+
 import type { GiftWeightCase } from '../src/GiftWeightCase';
 import { knapsack } from '../src/Knapsack';
 

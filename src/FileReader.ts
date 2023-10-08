@@ -1,5 +1,6 @@
 import type { Readable } from 'node:stream';
 import { pipeline } from 'node:stream';
+
 import { PackingError } from './PackingError';
 import { convert } from './stream-libs/convert';
 import { knapsackStream } from './stream-libs/knapsack-stream';

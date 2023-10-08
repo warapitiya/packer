@@ -1,5 +1,7 @@
 import assert from 'node:assert';
+
 import { describe, it } from 'mocha';
+
 import { convert } from '../src/stream-libs/convert';
 
 describe('Convert', () => {

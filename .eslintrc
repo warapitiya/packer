@@ -12,6 +12,12 @@
     "curly": [
       "error",
       "all"
+    ],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always-and-inside-groups"
+      }
     ]
   }
 }

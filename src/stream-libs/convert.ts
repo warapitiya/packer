@@ -1,5 +1,7 @@
 import { Transform } from 'node:stream';
+
 import { ZodError, z } from 'zod';
+
 import type { GiftWeightCase } from '../GiftWeightCase';
 import { PackingError } from '../PackingError';
 

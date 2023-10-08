@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+
 import FileReader from './FileReader';
 import { PackingError } from './PackingError';
 

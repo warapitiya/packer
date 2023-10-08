@@ -1,5 +1,7 @@
 import assert from 'node:assert';
+
 import { describe } from 'mocha';
+
 import { split } from '../src/stream-libs/split';
 
 describe('Split', () => {

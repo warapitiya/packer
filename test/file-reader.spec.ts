@@ -1,6 +1,8 @@
 import assert from 'node:assert';
 import { Readable } from 'node:stream';
+
 import { describe, it } from 'mocha';
+
 import FileReader from '../src/FileReader';
 
 describe('FileReader', () => {

@@ -1,5 +1,7 @@
 import assert from 'node:assert';
+
 import { describe, it } from 'mocha';
+
 import { knapsackStream } from '../src/stream-libs/knapsack-stream';
 
 describe('KnapsackStream', () => {

@@ -1,5 +1,6 @@
 import type { TransformCallback } from 'node:stream';
 import { Transform } from 'node:stream';
+
 import type { GiftWeightCase } from '../GiftWeightCase';
 import { knapsack } from '../Knapsack';
 
